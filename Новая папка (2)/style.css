@@ -1,0 +1,27 @@
+#gallery {
+    position: relative;
+}
+div {
+    border: 1px solid black;
+}
+#gallery img {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+#gallery-controls {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+#playPauseBtn {
+    cursor: pointer;
+}
